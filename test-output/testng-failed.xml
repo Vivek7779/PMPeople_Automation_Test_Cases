@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.PMPeople.TestClass8_ProgramManager.T1_AddingProjectwithCode">
+        <methods>
+          <include name="addingProjectwithCode"/>
+        </methods>
+      </class> <!-- com.PMPeople.TestClass8_ProgramManager.T1_AddingProjectwithCode -->
+      <class name="com.PMPeople.TestClass9_PortfolioManager.T1_AddingProjectWithCode">
+        <methods>
+          <include name="addingProjectWithCode"/>
+        </methods>
+      </class> <!-- com.PMPeople.TestClass9_PortfolioManager.T1_AddingProjectWithCode -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
