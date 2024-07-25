@@ -63,6 +63,7 @@ public class T1_SignUp extends BaseClass {
 		System.out.println("Sign up successful");
 		driver.quit();
 
+		System.out.println("hii");
 	}
 
 }

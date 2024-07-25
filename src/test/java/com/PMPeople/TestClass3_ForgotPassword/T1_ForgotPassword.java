@@ -36,7 +36,7 @@ public class T1_ForgotPassword extends BaseClass {
 		Thread.sleep(2000);
 		
 		driver.quit();
-		
+		System.out.println("hii");
 		
 	}
 }
