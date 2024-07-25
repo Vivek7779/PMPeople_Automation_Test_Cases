@@ -61,7 +61,7 @@ public class T1_SignUp extends BaseClass {
 		Thread.sleep(1000);
 
 		System.out.println("Sign up successful");
-		driver.quit();
+		//driver.quit();
 	}
 
 }
