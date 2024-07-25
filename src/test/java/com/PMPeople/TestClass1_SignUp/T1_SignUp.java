@@ -42,7 +42,7 @@ public class T1_SignUp extends BaseClass {
 		WebElement Country = driver.findElement(By.xpath("//*[@id=\"root\"]/body/main/div/div/div/div/ul/form/div/div[5]/select"));
 		clickWithPause(Country);
 
-		// Create a Select object for the dropdown
+		// Create a Select object for the dropdown.
 		Select dropdown = new Select(Country);
 
 		// Select the country by its visible text
