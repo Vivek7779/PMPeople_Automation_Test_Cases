@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import Resources.BaseClass;
 
 public class T1_ForgotPassword extends BaseClass {
-                                                                                        //:"xpath","selector":"//*[@id="root"]/body/main/div/div/div/div/ul/form/li[2]/a"}
+                                                                                   
 	@Test 
 	public void forgot_password () throws IOException, InterruptedException {
 		
