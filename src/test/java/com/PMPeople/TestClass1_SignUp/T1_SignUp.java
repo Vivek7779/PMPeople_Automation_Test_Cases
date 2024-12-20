@@ -61,6 +61,7 @@ public class T1_SignUp extends BaseClass {
 		Thread.sleep(1000);
 
 		System.out.println("Sign up successful");
+		System.out.println("Test T1 Pass");
 		driver.quit();
 	}
 
