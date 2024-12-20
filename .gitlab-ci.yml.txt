@@ -1,0 +1,16 @@
+stages:
+  - test
+
+test_automation:
+  stage: test
+  image: maven:3.8.7-openjdk-17
+  before_script:
+    - apt-get update && apt-get install -y wget unzip
+    - wget -q https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip
+    - unzip chromedriver_linux64.zip -d /usr/local/bin/
+    - apt-get install -y xvfb
+  script:
+    - mvn clean install
+    - xvfb-run -a mvn test  # Run tests in a virtual display for headless browsers
+  only:
+    - main
